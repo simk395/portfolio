@@ -1,25 +1,52 @@
-import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components'
+import {Nav, Profile} from './components'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="App">
+      <Nav/>
+      <Profile/>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  text-align: center;
+  width: 900px;
+  min-height:100vh;
+  margin: 0 5rem;
+  padding: 0 10rem;
+
+
+  @media (max-width: 960px){
+    margin: 0 4rem;
+    padding: 0 8rem;
+  }
+
+  @media (max-width: 768px){
+    margin: 0 3rem;
+    padding: 0 6rem;
+  }
+
+  @media (max-width: 640px){
+    margin: 0 2rem;
+    padding: 0 4rem;
+  }
+
+  @media (max-width: 480px){
+    margin: 0 1rem;
+    padding: 0 2rem;
+  }
+
+  @media (max-width: 384px){
+    margin: 0;
+    padding: 0;
+  }
+
+`
+
+
+
 
 export default App;
