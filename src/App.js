@@ -1,41 +1,52 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {Tab, Tabs, Nav, Row, Col} from 'react-bootstrap'
-import Home from './Home/Home'
+import styled from 'styled-components'
+import {Nav, Profile} from './components'
 
 function App() {
   return (
-    <div className="App">
-      <Tab.Container defaultActiveKey="home">
-        <Row>
-          <Nav>
-            <Nav.Item>
-              <Nav.Link eventKey="home">Home</Nav.Link>
-            </Nav.Item>
-            <Nav.Item className="ms-auto">
-              <Nav.Link eventKey="projects">Projects</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="contributions">Contributions</Nav.Link>
-            </Nav.Item>
-          </Nav>
-        </Row>
-        <Row>
-          <Tab.Content>
-            <Tab.Pane eventKey="home">
-              <Home/>
-            </Tab.Pane>
-            <Tab.Pane eventKey="projects">
-              projects
-            </Tab.Pane>
-            <Tab.Pane eventKey="contributions">
-              contribtions
-            </Tab.Pane>
-          </Tab.Content>
-        </Row>
-      </Tab.Container>
-    </div>
+    <Container className="App">
+      <Nav/>
+      <Profile/>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  text-align: center;
+  width: 900px;
+  min-height:100vh;
+  margin: 0 5rem;
+  padding: 0 10rem;
+
+
+  @media (max-width: 960px){
+    margin: 0 4rem;
+    padding: 0 8rem;
+  }
+
+  @media (max-width: 768px){
+    margin: 0 3rem;
+    padding: 0 6rem;
+  }
+
+  @media (max-width: 640px){
+    margin: 0 2rem;
+    padding: 0 4rem;
+  }
+
+  @media (max-width: 480px){
+    margin: 0 1rem;
+    padding: 0 2rem;
+  }
+
+  @media (max-width: 384px){
+    margin: 0;
+    padding: 0;
+  }
+
+`
+
+
+
 
 export default App;

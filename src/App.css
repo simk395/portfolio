@@ -1,21 +1,10 @@
-*{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
+#root{
+  display:flex;
+  justify-content: center;
 }
 
 body{
   background-color:#0d1117;
-  color: #c9d1d9
-}
-
-.App {
-  text-align: center;
-  margin: 0 20%;
-}
-
-.nav-link, .nav-link:hover{
-  color:inherit;
-  cursor: pointer;
+  color: #c9d1d9;
+  width: 100vw;
 }
