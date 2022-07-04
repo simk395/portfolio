@@ -5,10 +5,10 @@ function Nav() {
   return (
     <Container>
         <Item>Home</Item>
-        <Container>
+        <List>
             <Item>Projects</Item>
             <Item>Contributions</Item>
-        </Container>
+        </List>
     </Container>
   )
 }
@@ -18,9 +18,12 @@ const Container = styled.nav`
   justify-content: space-between;
 `
 
+const List = styled(Container)`
+    width: 175px;
+`
+
 const Item = styled.p`
   cursor: pointer;
-  padding-right: 5px;
 `
 
 export default Nav
