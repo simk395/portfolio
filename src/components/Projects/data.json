@@ -1,0 +1,39 @@
+{
+    "projects": [
+        {
+            "title": "uf-bot",
+            "description": "Script to automate actions in a certain video game. It uses images to determine its next action.",
+            "url": "https://github.com/simk395/uf-bot"
+        },
+        {
+            "title": "auto-mwb",
+            "description": "Malwarebytes auto scanning script to simulate the paid feature. Add it to your task scheduler for scheduled scans!",
+            "url": "https://github.com/simk395/auto-mwb"
+        },
+        {
+            "title": "Computer Vision",
+            "description": "Projects from Computer Vision course at CUNY Queens College. Covers many high level topics such as Fast Fourier Transform, Hough Transform, Edge Detection (Sobel, Robert's Cross), Gray-Scale detection, Morpohlogy, Text Detection, Line Detection, and many more!",
+            "url": "https://github.com/simk395/CS-381-Computer-Vision"
+        },
+        {
+            "title": "Operating Systems",
+            "description": "Projects from Operating Systems course at CUNY Queens College. Covers multi-threading, parallelism, OS architecture, and using the linux kernel library.",
+            "url": "https://github.com/simk395/CS-340-Operation-Systems"
+        },
+        {
+            "title": "Game of Thrones Fansite",
+            "description": "Final project from Flatiron School using Ruby on Rails and React. Created to celebrate the season finale of Game of Thrones. Forum with easter egg features such as voice-to-text to set the page ablaze.",
+            "url": "https://github.com/simk395/GoT_Fansite_Front"
+        },
+        {
+            "title": "Ani-Shelf",
+            "description": "Fourth project from Flatiron School using Ruby on Rails and React. Inspired by Ani-Chart website. Collaborated with Norbert Lam @NorbertLam.",
+            "url": "https://github.com/NorbertLam/ani-shelf-frontend"
+        },
+        {
+            "title": "Simon.gg",
+            "description": "Second project from Flatiron School. Created to experience using Riot Games API. Collaborated with John Oncher @Joncher.",
+            "url": "https://github.com/simk395/simon.gg"
+        }
+    ]
+}
