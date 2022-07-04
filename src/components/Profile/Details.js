@@ -1,12 +1,14 @@
 import React from 'react'
 import Avatar from '../../images/avatar.png'
+import Hackerrank from '../../images/hackerrank.svg'
+import Github from '../../images/github.svg'
 import styled from 'styled-components'
 
 function Details() {
   return (
     <Container>
         <Col>
-            <Image src={Avatar} title="Simon Kong" alt-text="Picture of me"></Image>
+            <Image src={Avatar} title="Simon Kong" alt-text="Picture of me"/>
         </Col>
         <Col>
             <Title>Simon Kong</Title>
@@ -14,8 +16,14 @@ function Details() {
             <Text>Specialize in Web Development and AI</Text>
         </Col>
         <List>
-            <Link href="https://github.com/simk395">GitHub</Link>
-            <Link href="https://www.hackerrank.com/simonkong">HackerRank</Link>
+            <Container>
+                <Icon src={Github}/>
+                <Link href="https://github.com/simk395">GitHub</Link>
+            </Container>
+            <Container>
+                <Icon src={Hackerrank}/>
+                <Link href="https://www.hackerrank.com/simonkong">HackerRank</Link>
+            </Container>
         </List>
     </Container>
   )
@@ -63,7 +71,12 @@ const Link = styled.a.attrs({
 })`
     color:#87ceeb;
     text-decoration: none;
+    margin-bottom: 5px;
 `
 
+const Icon = styled.img`
+    height: 20px;
+    padding-right: 4px;
+`
 
 export default Details

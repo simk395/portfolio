@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 function Nav() {
   return (
     <Container>
-        <Item>Home</Item>
+        <Item to="/">Home</Item>
         <List>
-            <Item>Projects</Item>
-            <Item>Contributions</Item>
+            <Item to="/projects">Projects</Item>
+            <Item to="/contributions">Contributions</Item>
         </List>
     </Container>
   )
@@ -22,8 +23,11 @@ const List = styled(Container)`
     width: 175px;
 `
 
-const Item = styled.p`
-  cursor: pointer;
+const Item = styled(Link)`
+  color: inherit;
+  text-decoration: none;
+  margin: 1rem 0;
+  font-weight: 500;
 `
 
 export default Nav

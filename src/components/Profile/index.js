@@ -1,17 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import Details from './Details'
 import Body from './Body'
 
-export class Profile extends Component {
-  render() {
+function Profile() {
     return (
         <Container>
             <Details/>
             <Body/>
         </Container>
     )
-  }
 }
 
 const Container = styled.div`

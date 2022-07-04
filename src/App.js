@@ -1,18 +1,20 @@
 import './App.css';
 import styled from 'styled-components'
-import {Nav, Profile, Footer} from './components'
+import {Nav, Profile, Footer, Projects} from './components'
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <Container className="App">
+    <Container>
       <Nav/>
-      <Profile/>
+      <Routes>
+        <Route path='/projects' element={<Projects/>} />
+        <Route path="/" element={<Profile/>} />
+      </Routes>
       <Footer/>
     </Container>
   );
 }
-
-console.log(window.innerWidth);
 
 const Container = styled.div`
   text-align: center;
