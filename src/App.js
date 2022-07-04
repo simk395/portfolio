@@ -1,6 +1,6 @@
 import './App.css';
 import styled from 'styled-components'
-import {Nav, Profile, Footer, Projects} from './components'
+import {Nav, Profile, Footer, Projects, Contributions} from './components'
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Nav/>
       <Routes>
         <Route path='/projects' element={<Projects/>} />
+        <Route path='/contributions' element={<Contributions/>} />
         <Route path="/" element={<Profile/>} />
       </Routes>
       <Footer/>
