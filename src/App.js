@@ -1,12 +1,13 @@
 import './App.css';
 import styled from 'styled-components'
-import {Nav, Profile} from './components'
+import {Nav, Profile, Footer} from './components'
 
 function App() {
   return (
     <Container className="App">
       <Nav/>
       <Profile/>
+      <Footer/>
     </Container>
   );
 }

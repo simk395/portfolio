@@ -12,12 +12,10 @@ function Details() {
             <Title>Simon Kong</Title>
             <Text>Software Engineer</Text>
             <Text>Specialize in Web Development and AI</Text>
-            
         </Col>
         <List>
             <Link>GitHub</Link>
             <Link>HackerRank</Link>
-            <Link>Email</Link>
         </List>
     </Container>
   )
