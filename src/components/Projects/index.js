@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Card from './Card'
+import Card from '../Shared/Card'
 import data from './data.json'
 
 
@@ -19,6 +19,7 @@ function Projects() {
 }
 
 const Container = styled.div`
+    min-height: 80vh;
 `
 
 const Title = styled.h1`

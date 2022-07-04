@@ -13,6 +13,7 @@ function Profile() {
 }
 
 const Container = styled.div`
+    min-height: 80vh;
     display:flex;
     flex-direction: column;
 `
