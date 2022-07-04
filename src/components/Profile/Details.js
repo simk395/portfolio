@@ -14,8 +14,8 @@ function Details() {
             <Text>Specialize in Web Development and AI</Text>
         </Col>
         <List>
-            <Link>GitHub</Link>
-            <Link>HackerRank</Link>
+            <Link href="https://github.com/simk395">GitHub</Link>
+            <Link href="https://www.hackerrank.com/simonkong">HackerRank</Link>
         </List>
     </Container>
   )
@@ -25,8 +25,6 @@ const Container = styled.div`
     display:flex;
     flex-direction: row;
     text-align:left;
-
-   
 `
 
 const Image = styled.img`
@@ -60,7 +58,11 @@ const Text = styled.p`
     margin:0;
 `
 
-const Link = styled.a`
+const Link = styled.a.attrs({
+    target: "_blank"
+})`
+    color:#87ceeb;
+    text-decoration: none;
 `
 
 
