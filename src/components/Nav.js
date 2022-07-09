@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 function Nav() {
   return (
     <Container>
-        <Item to="/">Home</Item>
+        <Item to="/portfolio">Home</Item>
         <List>
             <Item to="/projects">Projects</Item>
             <Item to="/contributions">Contributions</Item>

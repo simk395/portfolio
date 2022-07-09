@@ -1,6 +1,11 @@
 {
     "projects": [
         {
+            "title": "Invoice Transfer",
+            "description": "Scans excel spreadsheet column for listed invoices and transfers them from point A to point B.",
+            "url": "https://github.com/simk395/excel-move"
+        },
+        {
             "title": "uf-bot",
             "description": "Script to automate actions in a certain video game. It uses images to determine its next action.",
             "url": "https://github.com/simk395/uf-bot"
