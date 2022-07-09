@@ -6,7 +6,10 @@ function Body() {
     <Container>
         <Title>About</Title>
         <Bio>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Hello, I am a hobbyist programmer going professional. I have been programming for 7+ years as an amateur. Most of the programs I have created
+            are bots/scripts to automate mine or someone elses daily life. Some of these programs are used in professional work by people I know. 
+            I am most proficient in JavaScript and Python but, I do use Java and C++ when necessary. Love working
+            on challenging problems/puzzles and helping others with programming.
         </Bio>
         <Title>Programming Languages</Title>
         <List>
@@ -35,6 +38,8 @@ function Body() {
 
 const Container = styled.div`
     text-align:left;
+    overflow-wrap: anywhere;
+
 `
 
 const Title = styled.h1`

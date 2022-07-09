@@ -16,14 +16,14 @@ function Details() {
             <Text>Specialize in Web Development and AI</Text>
         </Col>
         <List>
-            <Container>
+            <Wrapper>
                 <Icon src={Github}/>
                 <Link href="https://github.com/simk395">GitHub</Link>
-            </Container>
-            <Container>
+            </Wrapper>
+            <Wrapper>
                 <Icon src={Hackerrank}/>
                 <Link href="https://www.hackerrank.com/simonkong">HackerRank</Link>
-            </Container>
+            </Wrapper>
         </List>
     </Container>
   )
@@ -33,6 +33,17 @@ const Container = styled.div`
     display:flex;
     flex-direction: row;
     text-align:left;
+
+    @media (max-width: 384px){
+        flex-direction: column;
+        align-items: center;
+    }
+`
+const Wrapper = styled(Container)`
+    @media (max-width: 384px){
+        flex-direction: row;
+        justify-content: flex-start;
+    }
 `
 
 const Image = styled.img`
@@ -53,6 +64,11 @@ const List = styled.div`
     margin-left:auto;
 
     @media (max-width: 768px){
+        margin-left: 100px;
+    }
+
+    @media (max-width: 384px){
+        display:block;
         margin: 0;
     }
 `
