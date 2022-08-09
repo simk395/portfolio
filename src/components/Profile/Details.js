@@ -2,6 +2,7 @@ import React from 'react'
 import Avatar from '../../images/avatar.png'
 import Hackerrank from '../../images/hackerrank.svg'
 import Github from '../../images/github.svg'
+import LeetCode from '../../images/leetcode.png'
 import styled from 'styled-components'
 
 function Details() {
@@ -23,6 +24,10 @@ function Details() {
             <Wrapper>
                 <Icon src={Hackerrank}/>
                 <Link href="https://www.hackerrank.com/simonkong">HackerRank</Link>
+            </Wrapper>
+            <Wrapper>
+                <Icon src={LeetCode}/>
+                <Link href="https://leetcode.com/simk3695/">LeetCode</Link>
             </Wrapper>
         </List>
     </Container>
