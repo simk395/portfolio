@@ -14,7 +14,7 @@ function Details() {
         <Col>
             <Title>Simon Kong</Title>
             <Text>Software Engineer</Text>
-            <Text>Specialize in Web Development and AI</Text>
+            <Text>Specialize in Web Development and Automation</Text>
         </Col>
         <List>
             <Wrapper>
