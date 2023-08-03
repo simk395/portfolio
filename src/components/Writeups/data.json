@@ -1,0 +1,9 @@
+{
+    "writeups":[
+        {
+            "title": "PicoCTF 2019",
+            "description": "All of my solutions to reverse engineering and binary exploitation problems for picoCTF 2019",
+            "url": "https://github.com/simk395/CTF-Writeups/tree/main/PicoCTF2019/"
+        }
+    ]
+}

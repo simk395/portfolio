@@ -1,36 +1,30 @@
 import React from 'react'
 import styled from 'styled-components'
+import data from './data.json'
 
 function Body() {
+    const {lang, tools} = data;
+    const langItems = lang.map( language => 
+        <Item>{language}</Item>
+    )
+
+    const toolsItems = tools.map( tool => 
+    <Item>{tool}</Item>
+    )
   return (
     <Container>
         <Title>About</Title>
         <Bio>
-            Hello, I am a hobbyist programmer going professional. I have been programming for 7+ years as an amateur. Most of the programs I have created
-            are bots/scripts to automate mine or someone elses daily life. Some of these programs are used in professional work by people I know. 
-            I am most proficient in JavaScript and Python but, I do use Java and C++ when necessary. Love working
-            on challenging problems/puzzles and helping others with programming.
+            I am a video game software analyzer that also inspects malware. I primarily use my understanding of x86, C++, and Win32 API to disassemble software for entertainment. I have familiarity with web development using the MERN and PERN stack.
+            I also have familiarity with computer vision, search engine algorithms, and operating systems. 
         </Bio>
         <Title>Programming Languages</Title>
         <List>
-            <Item>JavaScript</Item>
-            <Item>C++</Item>
-            <Item>Java</Item>
-            <Item>Python</Item>
-            <Item>Ruby</Item>
+            {langItems}
         </List>
         <Title>Tools</Title>
         <List>
-            <Item>Bootstrap</Item>
-            <Item>Express</Item>
-            <Item>Git</Item>
-            <Item>MongoDB</Item>
-            <Item>Postgresql</Item>
-            <Item>React</Item>
-            <Item>Redux</Item>
-            <Item>Ruby on Rails</Item>
-            <Item>Sass</Item>
-            <Item>Typescript</Item>
+            {toolsItems}
         </List>
     </Container>
   )

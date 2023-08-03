@@ -1,0 +1,5 @@
+{
+    "lang": [ "x86", "C++", "Java", "Python", "JavaScript", "Ruby", "SQL", "Bash" ],
+    "tools": [ "Cheat Engine", "IDA Free", "Ollydbg", "ProcessMonitor", "ProcessExplorer", 
+    "WireShark", "Win32 API", "PE Tools", "REST API", "Restful API","React", "Git"]
+}

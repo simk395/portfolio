@@ -1,5 +1,5 @@
 import React from 'react'
-import Avatar from '../../images/avatar.png'
+import Avatar from '../../images/avatar.jpg'
 import Hackerrank from '../../images/hackerrank.svg'
 import Github from '../../images/github.svg'
 import LeetCode from '../../images/leetcode.png'
@@ -13,8 +13,9 @@ function Details() {
         </Col>
         <Col>
             <Title>Simon Kong</Title>
-            <Text>Software Engineer</Text>
-            <Text>Specialize in Web Development and Automation</Text>
+            <Text>Software/Reverse Engineer</Text>
+            <Text>Looking to learn IDA Pro</Text>
+            <Text>Looking to get SANS GREM (Its so expensive)</Text>
         </Col>
         <List>
             <Wrapper>
@@ -23,7 +24,7 @@ function Details() {
             </Wrapper>
             <Wrapper>
                 <Icon src={Hackerrank}/>
-                <Link href="https://www.hackerrank.com/simonkong">HackerRank</Link>
+                <Link href="https://www.hackerrank.com/simonkong?hr_r=1">Hackerrank</Link>
             </Wrapper>
             <Wrapper>
                 <Icon src={LeetCode}/>

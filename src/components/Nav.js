@@ -8,7 +8,7 @@ function Nav() {
         <Item to="/portfolio">Home</Item>
         <List>
             <Item to="/projects">Projects</Item>
-            <Item to="/contributions">Contributions</Item>
+            <Item to="/writeups">CTF</Item>
         </List>
     </Container>
   )

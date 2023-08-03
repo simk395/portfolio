@@ -12,7 +12,7 @@ function Projects() {
     )
     return (
         <Container>
-            <Title>Projects</Title>
+            <Title>Side Projects</Title>
             {cards}
         </Container>
     )

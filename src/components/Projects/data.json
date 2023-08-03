@@ -27,17 +27,17 @@
         },
         {
             "title": "Game of Thrones Fansite",
-            "description": "Final project from Flatiron School using Ruby on Rails and React. Created to celebrate the season finale of Game of Thrones. Forum with easter egg features such as voice-to-text to set the page ablaze.",
+            "description": "Full Stack project using Ruby on Rails and React. Created to experience what it is like to make a forum website from scratch",
             "url": "https://github.com/simk395/GoT_Fansite_Front"
         },
         {
             "title": "Ani-Shelf",
-            "description": "Fourth project from Flatiron School using Ruby on Rails and React. Inspired by Ani-Chart website. Collaborated with Norbert Lam @NorbertLam.",
+            "description": "Inspired by Ani-Chart website and created with Ruby on Rails and React. Collaborated with Norbert Lam @NorbertLam.",
             "url": "https://github.com/NorbertLam/ani-shelf-frontend"
         },
         {
             "title": "Simon.gg",
-            "description": "Second project from Flatiron School. Created to experience using Riot Games API. Collaborated with John Oncher @Joncher.",
+            "description": "Created to experience using Riot Games API. Collaborated with John Oncher @Joncher.",
             "url": "https://github.com/simk395/simon.gg"
         }
     ]
